@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageChocolate"
+                android:layout_width="wrap_content"
+                android:layout_height="60pt"
+                android:onClick="onClickChocolate"
+                app:srcCompat="@drawable/chocolate" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageChocPudding"
+                android:layout_width="wrap_content"
+                android:layout_height="65pt"
+                android:onClick="onClickChocolatePudding"
+                app:srcCompat="@drawable/chocolate_pudding" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageDatePudding"
+                android:layout_width="wrap_content"
+                android:layout_height="65pt"
+                android:onClick="onClickStickyDate"
+                app:srcCompat="@drawable/sticky_date_pudding" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <ImageButton
+                android:id="@+id/imageTrifle"
+                android:layout_width="wrap_content"
+                android:layout_height="65pt"
+                android:onClick="onClickTrifle"
+                app:srcCompat="@drawable/trifle" />
+        </TableRow>
+    </TableLayout>
+</android.support.constraint.ConstraintLayout>
